@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+.title{
+    font-size: 2rem;
+}
+.title:hover{
+    color: lightgrey;
+}
+.navbar{
+    background-color: maroon;
+    color: oldlace;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 3rem;
+    align-items: center;
+    gap: 2rem;
+    
+
+}
+.navbar ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+.navbar li:hover{
+    color: lightgrey;
+}
+.navbar li.active{
+    color: lightgrey;
+}
+.navbar a{
+    color: inherit;
+    text-decoration: none;
+}
